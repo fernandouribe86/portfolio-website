@@ -2,7 +2,8 @@
 <html>
 
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
 		<title>Contact Fernando Uribe</title>
 		<link rel="shortcut icon" href="img/z-favicon-lunar.ico">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -18,7 +19,7 @@
 					<div class="nav logo">
 						<img src="img/zenith-logo-lunar-blue-v2.svg" alt="Logo for Zenith Consulting, a stylized text logo that consists of the company name"  class="page-header-item">
 					</div>
-					<div ="menu">
+					<div class="menu">
 					<ul role="menubar" class="navigation-list">
 						<li role="presentation">
 							<a href="index.html" role="menuitem" class="navigation-list-item">Home</a>
@@ -55,16 +56,15 @@
 				<div class="contact-form-container">
 					<form action="#" method="post" id="contact-form">
 						<p>
-							<label class="standard-label" for="contact-name">Name:*&nbsp;&nbsp;&nbsp;</label>
-					<form action="#" method="post" id="contact-form">
-							<input type="text" for="contact-name" required>
+							<label class="standard-label" for="contact-name">Name:*</label>
+							<input type="text" id="contact-name" required>
 						</p>
 						<p>
-						<label class="standard-label" for="contact-email">E-mail:*&nbsp;&nbsp;&nbsp;</label>
+						<label class="standard-label" for="contact-email">E-mail:*</label>
 							<input type="email" id="contact-email" required>
 						</p>
 						<p>
-						<label class="standard-label" for="contact-phone">Telephone:&nbsp;&nbsp;&nbsp;</label>
+						<label class="standard-label" for="contact-phone">Telephone:</label>
 							<input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
 						</p>
 						<p>
@@ -73,7 +73,6 @@
 						(maximum 240 characters )
 					</p>
 					<input type="submit" value="Send Message" class="contact-form-submit" id="contact-submit">
-					</p>
 					</form>
 				</div>
 		</div>
@@ -97,6 +96,7 @@
 					<img src="img/linkedin-svgrepo-com.svg" alt="LinkedIn Logo">
 				</a>
 			</div>
+		</div>
 		</footer>
 	</div>
 	<script src="js/tota11y.min.js"></script>
