@@ -338,6 +338,261 @@ footer a{
 	line-height: 1em;
 }
 
+.project-list-item p,a{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#pokedexContainerHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #2b2b2b;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+#pokedexLogo{
+	height: 60px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#pokedexScreenshot{
+	width: 80%;
+	margin-top: 10px;
+	box-shadow: 3px 3px rgb(5, 29, 21), -3px -3px rgb(180, 175, 106);
+}
+
+#pokedexApp{
+	color: var(--zblue);
+	padding-bottom: 10px;
+}
+
+#pokedexApp:hover, #pokedexApp:focus{
+	color: var(--zgold);
+}
+
+#pokedexApp:active{
+	color: var(--zred);
+}
+
+#pokedexGit{
+	color: var(--zblue);
+}
+
+#pokedexGit:hover, #pokedexGit:focus{
+	color: var(--zgold);
+}
+
+#pokedexGit:active{
+	color: var(--zred);
+}
+
+#meetContainerHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #2b2b2b;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+#meetLogo{
+	height: 60px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#meetScreenshot{
+	width: 80%;
+	margin-top: 10px;
+	box-shadow: 3px 3px #00FFFF, -3px -3px #FF00F5;
+}
+
+#meetApp{
+	color: var(--zblue);
+	padding-bottom: 10px;
+}
+
+#meetApp:hover, #meetApp:focus{
+	color: var(--zgold);
+}
+
+#meetApp:active{
+	color: var(--zred);
+}
+
+#meetGit{
+	color: var(--zblue);
+}
+
+#meetGit:hover, #meetGit:focus{
+	color: var(--zgold);
+}
+
+#meetGit:active{
+	color: var(--zred);
+}
+
+#myflixNgContainerHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #2b2b2b;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#myflixNgLogo{
+	height: 60px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#myflixNgScreenshot{
+	width: 80%;
+	margin-top: 10px;
+	box-shadow: 3px 3px rgb(63,81,181), -3px -3px rgb(255, 64, 129);
+}
+
+#myFlixNgApp{
+	color: var(--zblue);
+	padding-bottom: 10px;
+}
+
+#myFlixNgApp:hover, #myFlixNgApp:focus{
+	color: var(--zgold);
+}
+
+#myFlixNgApp:active{
+	color: var(--zred);
+}
+
+#myFlixNgGit{
+	color: var(--zblue);
+}
+
+#myFlixNgGit:hover, #myFlixNgGit:focus{
+	color: var(--zgold);
+}
+
+#myFlixNgGit:active{
+	color: var(--zred);
+}
+
+#myflixReactContainerHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #2b2b2b;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#myflixReactLogo{
+	height: 60px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#myflixReactScreenshot{
+	width: 80%;
+	margin-top: 10px;
+	box-shadow: 3px 3px rgb(30,51,76), -3px -3px rgb(196, 31, 37);
+}
+
+#myFlixReactApp{
+	color: var(--zblue);
+	padding-bottom: 10px;
+}
+
+#myFlixReactApp:hover, #myFlixNgApp:focus{
+	color: var(--zgold);
+}
+
+#myFlixReactApp:active{
+	color: var(--zred);
+}
+
+#myFlixReactGit{
+	color: var(--zblue);
+}
+
+#myFlixReactGit:hover, #myFlixReactGit:focus{
+	color: var(--zgold);
+}
+
+#myFlixReactGit:active{
+	color: var(--zred);
+}
+
+#myFlixApiGit{
+	color: var(--zblue);
+}
+
+#myFlixApiGit:hover, #myFlixReactGit:focus{
+	color: var(--zgold);
+}
+
+#myFlixApiGit:active{
+	color: var(--zred);
+}
+
+#grouprContainerHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #2b2b2b;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#grouprReactLogo{
+	height: 60px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#grouprScreenshot{
+	height: 250px;
+	margin-top: 10px;
+	box-shadow: 3px 3px rgb(121,115,134), -3px -3px rgb(180, 195, 171);
+}
+
+#grouprApp{
+	color: var(--zblue);
+	padding-bottom: 10px;
+}
+
+#grouprApp:hover, #grouprApp:focus{
+	color: var(--zgold);
+}
+
+#grouprApp:active{
+	color: var(--zred);
+}
+
+#grouprGit{
+	color: var(--zblue);
+}
+
+#grouprGit:hover, #grouprGit:focus{
+	color: var(--zgold);
+}
+
+#grouprGit:active{
+	color: var(--zred);
+}
+
+
 .project-list-item p{
 	color: var(--zblack);
 }
@@ -362,8 +617,8 @@ footer a{
 		width: auto;
 		min-height: auto;
 		margin: 0;
-		padding-right: 20px;
-		padding-left: 20px;
+		/* padding-right: 20px;
+		padding-left: 20px; */
 		padding-bottom: 35px;
 
 	}
@@ -374,7 +629,40 @@ footer a{
 	}
 }
 
+.meetContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+}
 
+.myflixNgContainer{
+		display: flex;
+		flex-direction: column;
+		justify-content:space-between;
+		align-items: center;
+}
+
+.myflixReactContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.grouprContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.pokedexContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+}
 
 /* CONTACT PAGE */
 .container-contact{
